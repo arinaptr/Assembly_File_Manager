@@ -13,10 +13,56 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Main">
+      <UniqueIdentifier>{d1f89ac8-78e0-49ca-a20c-4e52e439ea96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Panel">
+      <UniqueIdentifier>{bc165c58-b287-4ea5-a76b-4567b88eef76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Commander">
+      <UniqueIdentifier>{5186e2c3-c40e-4bc8-a6fa-0d667b7f420d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="asm_tools">
+      <UniqueIdentifier>{5d2c6c3e-65d0-4939-9096-aec5da19a71f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common">
+      <UniqueIdentifier>{985378e0-29d8-41f6-ad26-e11efab59a38}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Assembler.cpp">
-      <Filter>Исходные файлы</Filter>
+    <ClCompile Include="Main.cpp">
+      <Filter>Main</Filter>
     </ClCompile>
+    <ClCompile Include="Panel.cpp">
+      <Filter>Panel</Filter>
+    </ClCompile>
+    <ClCompile Include="Commander.cpp">
+      <Filter>Commander</Filter>
+    </ClCompile>
+    <ClCompile Include="Common.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Main.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="Panel.h">
+      <Filter>Panel</Filter>
+    </ClInclude>
+    <ClInclude Include="Commander.h">
+      <Filter>Commander</Filter>
+    </ClInclude>
+    <ClInclude Include="asm_tools_interface.h">
+      <Filter>asm_tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Common.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <MASM Include="asm_tools.asm">
+      <Filter>asm_tools</Filter>
+    </MASM>
   </ItemGroup>
 </Project>

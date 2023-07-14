@@ -1,2 +1,2 @@
-﻿  Assembler.cpp
-  Assembler.vcxproj -> C:\Users\HP\source\repos\Assembler\x64\Debug\Assembler.exe
+﻿  Panel.cpp
+C:\Users\HP\source\repos\Assembler\Assembler\Panel.cpp(62,39): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
